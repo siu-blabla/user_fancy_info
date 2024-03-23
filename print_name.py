@@ -1,12 +1,21 @@
 # pseudocode
+from pyfiglet import Figlet
 
 # ask user to input name
 user_name = str(input("What is your name? (Given name only): "))
+
 # ask user to input their dream job
 user_dream_job = str(input("What is your dream job?: "))
+
 # ask user what their hobby is
 user_hobby = str(input("What is your hobby?: "))
+
 # print name in fancy way
+font = Figlet(font="cosmic")
+print("-------------------------------------------------------------")
+text_style1 = (font.renderText(user_name))
+print('\033[91m' + "Your name is: ")
+print('\033[93m' + text_style1)
 # print dream job in fancy way
 # print hobby in fancy way
 # display the inputs of the user
