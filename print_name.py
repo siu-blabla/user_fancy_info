@@ -35,3 +35,4 @@ print("Hobby: " + user_hobby)
 print("-------------------------------------------------------------")
 
 # End
+print("End of the program...")
