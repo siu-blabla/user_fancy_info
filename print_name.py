@@ -1,6 +1,7 @@
 # pseudocode
 
 # ask user to input name
+user_name = str(input("What is your name? (Given name only): "))
 # ask user to input their dream job
 # ask user what their hobby is
 # print name in fancy way
