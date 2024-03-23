@@ -16,7 +16,11 @@ print("-------------------------------------------------------------")
 text_style1 = (font.renderText(user_name))
 print('\033[91m' + "Your name is: ")
 print('\033[93m' + text_style1)
+
 # print dream job in fancy way
+text_style2 = (font.renderText(user_dream_job))
+print('\033[91m' + "Your dream job is: ")
+print('\033[93m' + text_style2)
 # print hobby in fancy way
 # display the inputs of the user
 # End
